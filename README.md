@@ -8,11 +8,10 @@ The dataset used in this project contains sales information for three products (
 ## Pivot Table
 We create a pivot table to summarize the sales data by date and product using the pivot_table() function in pandas. The pivot table shows the total sales for each product on each date.
 
-Product       A   B   C
-Date                    
-2023-01-01   10  15  12
-2023-01-02   20  25  22
-2023-01-03   15  20  18
+|Product Date  |    A  | B  | C |                  
+|2023-01-01 |  10 | 15 | 12 |
+|2023-01-02  | 20 | 25 | 22 |
+|2023-01-03  | 15 | 20 | 18 |
 
 ## Data Visualization
 Two types of visualizations are created to represent the sales data:
